@@ -1,6 +1,6 @@
 h1, h2 {
     font-family: Playwrite DE Grund, serif;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .serious, h6, small {
@@ -37,15 +37,175 @@ p, li {
     width: 50px;
 }
 
-@media (min-width: 700px) {
-    p {
+.housetrees {
+    width: 200px; 
+    height: auto;
+}
+
+.hackerdog {
+    width: 130px; 
+    height: auto;
+}
+
+svg {
+    width: 16px;
+    height: 16px;
+}
+
+@media (max-width: 400px) {
+
+    .housetrees {
+        width: 140px; 
+    }
+
+    svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    h6 {
+        font-size: medium;
+    }
+
+    small {
+        font-size: small;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .btn, p, li {
+        font-size: small;
+    }
+}
+
+@media (min-width: 600px) {
+    .btn {
         font-size: large;
+    }
+
+    h2 {
+        font-size: xx-large;
+    }
+
+    h6 {
+        font-size: large;
+    }
+
+    small {
+        font-size: medium;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    svg {
+        width: 40px;
+        height: 40px; 
+    }
+
+    .hackerdog {
+        width: 150px;
     }
 }
 
 @media (min-width: 800px) {
     .myleafs {
         width: 75px;
+    }
+    .housetrees {
+        width: 250px; 
+    }
+    .hackerdog {
+        width: 220px; 
+    }
+    p, li {
+        font-size: large;
+    }
+}
+
+@media (min-width: 992px) {
+    .hackerdog {
+        width: 330px; 
+    }
+}
+
+@media (min-width: 1300px) {
+    .btn, p, li {
+        font-size: x-large;
+    }
+
+    h6 {
+        font-size: x-large;
+    }
+
+    small {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: xxx-large;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    svg {
+        width: 60px;
+        height: 60px; 
+    }
+
+    .myleafs {
+        width: 90px;
+    }
+
+    .housetrees {
+        width: 350px; 
+    }
+
+    .hackerdog {
+        width: 400px; 
+    }
+}
+
+@media (min-width: 1700px) {
+    .btn, p, li {
+        font-size: xx-large;
+    }
+
+    h6 {
+        font-size: xx-large;
+    }
+
+    small {
+        font-size: x-large;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .myleafs {
+        width: 100px;
+    }
+
+    .housetrees {
+        width: 450px; 
+    }
+
+    .hackerdog {
+        width: 500px; 
     }
 }
 
