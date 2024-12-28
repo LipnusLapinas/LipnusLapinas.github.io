@@ -1,0 +1,77 @@
+h1, h2 {
+    font-family: Playwrite DE Grund, serif;
+    font-weight: 800;
+}
+
+.serious, h6, small {
+    font-family: Libre Baskerville, sans-serif;
+}
+
+h6 {
+    font-weight: 700;
+}
+
+p, li {
+    font-family: Libre Baskerville, sans-serif;
+    font-size: medium;
+}
+
+.intro {
+    background-color: #D2EDD5;
+}
+
+.myprofile {
+    background-color: #99CAFA;
+}
+
+.myskills {
+    background-color: #E2EDDD;
+}
+
+.myexp {
+    background-color: #C2E8EF;
+}
+
+.myleafs {
+    position: absolute;
+    width: 50px;
+}
+
+@media (min-width: 700px) {
+    p {
+        font-size: large;
+    }
+}
+
+@media (min-width: 800px) {
+    .myleafs {
+        width: 75px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    margin: 10px 0 10px 0;
+    display: list-item !important;
+  }
+
+  .mahskillz {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .prime {
+    background-color: #99CAFA;
+    font-weight: 500;
+  }
+
+  .list-group-item {
+    pointer-events: none;
+    cursor: default;
+  }
